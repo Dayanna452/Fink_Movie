@@ -3,8 +3,8 @@ import React from 'react';
 function MovieDescription() {
   return (
     <>
-      <article>
-        <section>
+      <section>
+        <article>
           <div className='mt-5 bg-yellow-700'>
             <h3 className='mt-2'>resumen</h3>
             <p>
@@ -41,8 +41,8 @@ function MovieDescription() {
               </ul>
             </ul>
           </div>
-        </section>
-      </article>
+        </article>
+      </section>
     </>
   );
 }
