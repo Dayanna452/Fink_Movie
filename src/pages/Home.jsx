@@ -16,6 +16,7 @@ function Home() {
         <section>
           <MovieHeader />
           <MovieDescription />
+          <hr />
           <MainCharacters />
         </section>
       </main>

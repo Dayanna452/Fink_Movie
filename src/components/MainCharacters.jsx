@@ -4,12 +4,12 @@ import CharacterCard from './CharacterCard';
 function MainCharacters() {
   return (
     <>
-      <div className='grid grid-cols-2 mt-5 mb-10'>
+      <section className='grid grid-cols-2 mt-5 mb-10'>
         <CharacterCard />
         <CharacterCard />
         <CharacterCard />
         <CharacterCard />
-      </div>
+      </section>
     </>
   );
 }
