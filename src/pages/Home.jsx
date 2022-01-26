@@ -8,18 +8,24 @@ import Navbar from '../components/Navbar';
 function Home() {
   return (
     <>
-      <Navbar />
-      <main>
-        <section>
-          <MovieCard />
-        </section>
-        <section>
-          <MovieHeader />
-          <MovieDescription />
-          <hr />
-          <MainCharacters />
-        </section>
-      </main>
+      <div className='container mx-auto'>
+        <Navbar />
+        <main className='grid grid-cols-1 sm:grid-cols-2'>
+          <section>
+            <MovieCard />
+          </section>
+          <section>
+            <MovieHeader
+              time='10/25/2019'
+              generos='Comedia, Crimen'
+              duracion='1h 52min'
+            />
+            <MovieDescription />
+            <hr className='bg-brownLand' />
+            <MainCharacters />
+          </section>
+        </main>
+      </div>
     </>
   );
 }
