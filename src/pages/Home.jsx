@@ -22,7 +22,7 @@ function Home() {
               valoracion='7.0'
             />
             <MovieDescription />
-            <hr className='bg-brownLand w-78 mx-auto h-1 lg:w-104 xl:w-120 lg:mx-0' />
+            <hr className='bg-brownLand w-78 mx-auto h-1 md:w-94 md:mx-0 lg:w-104 xl:w-120 lg:mx-0' />
             <MainCharacters />
           </section>
         </main>
