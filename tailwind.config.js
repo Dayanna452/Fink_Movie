@@ -18,11 +18,14 @@ module.exports = {
       height: {
         98: '26rem',
         100: '27rem',
+        102: '28rem',
         104: '30rem',
+        110: '34rem',
         120: '36.3rem',
       },
       width: {
         78: '19.42rem',
+        92: '21rem',
         104: '28rem',
         120: '36.3rem',
       },

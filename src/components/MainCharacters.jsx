@@ -8,7 +8,7 @@ import photo4 from '../images/feyyaz-yigit.jpg';
 function MainCharacters() {
   return (
     <>
-      <section className='grid grid-cols-2 mt-5 mb-20 w-78 mx-auto justify-items-center '>
+      <section className='grid grid-cols-2 mt-5 mb-20 w-78 mx-auto justify-items-center lg:grid-cols-4 lg:mx-0 lg:my-4 lg:w-104 xl:w-120'>
         <CharacterCard
           imagen={photo1}
           realName='Uğur Yücel'

@@ -2,8 +2,8 @@ import React from 'react';
 
 function Author(props) {
   return (
-    <ul className='text-center my-2'>
-      <li className='mb-2'>
+    <ul className='text-center my-2 text-lg lg:text-xs border border-black lg:my-0'>
+      <li className='mb-2 '>
         <b>{props.name}</b>
       </li>
       <li>{props.occupation}</li>

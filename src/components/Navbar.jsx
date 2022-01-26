@@ -36,7 +36,7 @@ function Navbar() {
   };
 
   return (
-    <nav className='h-14 my-6 ml-6 mr-4 xl:ml-36 xl:mr-24'>
+    <nav className='h-14 my-6 ml-6 mr-4 lg:ml-20 xl:ml-40 xl:mr-24'>
       <ul className='flex items-center'>
         <div className='flex-1'>
           <Link to='/' className='flex text-justify items-center w-20'>
@@ -54,14 +54,14 @@ function Navbar() {
         <li>
           <Link
             to='/'
-            className='mx-1 py-1.5 h-10 hover:border-b-[2px] hover:border-greenLand'
+            className='mx-1 py-1.5 h-10 hover:border-b-[2px] hover:border-greenLand lg:mx-2'
             ref={btn2}
           >
             <span
               id='span2'
               ref={span2}
               onClick={handleClick}
-              className='font-roboto text-base'
+              className='font-roboto text-base lg:text-xl'
             >
               Movies
             </span>
@@ -71,14 +71,14 @@ function Navbar() {
         <li>
           <Link
             to='/'
-            className='mx-1 py-1.5 h-10 hover:border-b-[2px] hover:border-greenLand'
+            className='mx-1 py-1.5 h-10 hover:border-b-[2px] hover:border-greenLand lg:mx-2'
             ref={btn3}
           >
             <span
               id='span3'
               ref={span3}
               onClick={handleClick}
-              className='font-roboto text-base'
+              className='font-roboto text-base lg:text-lg'
             >
               Tv Show
             </span>
