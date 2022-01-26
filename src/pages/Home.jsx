@@ -19,9 +19,10 @@ function Home() {
               time='10/25/2019'
               generos='Comedia, Crimen'
               duracion='1h 52min'
+              valoracion='7.0'
             />
             <MovieDescription />
-            <hr className='bg-brownLand' />
+            <hr className='bg-brownLand w-78 mx-auto h-1' />
             <MainCharacters />
           </section>
         </main>

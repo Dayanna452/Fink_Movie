@@ -1,13 +1,14 @@
 import React from 'react';
 import { BsTriangleFill } from 'react-icons/bs';
+import logo from '../Images/Imdb-Logo.png';
 
 function MovieHeader(props) {
   return (
-    <header className='mt-56 h-44 sm:mt-0 '>
+    <header className='mt-56 h-44 sm:mt-0 w-78 lg:w-104 mx-auto '>
       <h1 className='font-average text-4xl py-4 sm:py-0 sm:pb-4 capitalize text-center'>
         you’ve got murder
       </h1>
-      <div className='grid grid-cols-3 mx-auto gap-y-4 text-center text-xs  w-78 sm:grid-cols-4 sm:w-104'>
+      <div className='grid grid-cols-3 sm:grid-cols-4 gap-y-4 text-center text-xs '>
         <time
           dateTime={props.time}
           className='bg-brownLand h-8 p-2 place-self-start rounded-xl'
@@ -20,7 +21,7 @@ function MovieHeader(props) {
         <h2 className='bg-brownLand h-8 p-2 place-self-center rounded-xl'>
           {props.duracion}
         </h2>
-        <button className='bg-brownLand h-8 rounded-xl place-self-start px-2 sm:place-self-end'>
+        <button className='bg-brownLand h-8 rounded-xl place-self-start px-1.5 sm:place-self-end'>
           <a
             href='https://www.youtube.com/watch?v=yhg8tQbzi34'
             className='flex text-redLight justify-center items-center'
@@ -30,9 +31,11 @@ function MovieHeader(props) {
           </a>
         </button>
       </div>
-      <div className='mt-7 bg-orange-300 flex justify-between'>
-        <a href='/'>ni idea buscarr :v</a>
-        <span>valoracion</span>
+      <div className='mt-7 flex h-8 '>
+        <img src={logo} alt='IMBd logo' />
+        <span className='ml-2 py-0.5'>
+          <b>{props.valoracion}</b> <small>/10</small>
+        </span>
       </div>
     </header>
   );

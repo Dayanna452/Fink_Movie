@@ -1,9 +1,10 @@
 import React from 'react';
+import Author from './Author';
 
 function MovieDescription() {
   return (
     <>
-      <article className='mt-40 mx-10 font-roboto sm:mt-0'>
+      <article className='mt-28 mx-auto w-78 lg:w-104 font-roboto sm:mt-0'>
         <div>
           <h3 className='my-3 text-xl'>
             <b>Overview</b>
@@ -23,21 +24,12 @@ function MovieDescription() {
             tragicomedy.
           </p>
         </div>
-        <div className='bg-gray-400 mt-5 '>
-          <ul className='grid grid-cols-2'>
-            <ul>
-              <li>nombre</li>
-              <li>cargo</li>
-            </ul>
-            <ul>
-              <li>nombre</li>
-              <li>cargo</li>
-            </ul>
-            <ul>
-              <li>nombre</li>
-              <li>cargo</li>
-            </ul>
-          </ul>
+        <div className='grid grid-cols-2 mx-auto justify-items-center place-content-center my-10 sm:grid-cols-3'>
+          <Author name='Ali Atay' occupation='Director, Writer' />
+          <Author name='Aziz Kedi' occupation='Writer' />
+          <div className='col-span-2 sm:col-span-1'>
+            <Author name='Feyyaz Yiğit' occupation='Writer' />
+          </div>
         </div>
       </article>
     </>
