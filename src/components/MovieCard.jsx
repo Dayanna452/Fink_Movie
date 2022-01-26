@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import movie from '../Images/movie.jpg';
-import netflix from '../Images/netflix.png';
+import movie from '../images/movie.jpg';
+import netflix from '../images/netflix.png';
 
 function MovieCard() {
   return (

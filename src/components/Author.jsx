@@ -3,7 +3,7 @@ import React from 'react';
 function Author(props) {
   return (
     <ul className='text-center my-2'>
-      <li>
+      <li className='mb-2'>
         <b>{props.name}</b>
       </li>
       <li>{props.occupation}</li>

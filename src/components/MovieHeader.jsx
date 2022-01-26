@@ -1,6 +1,6 @@
 import React from 'react';
 import { BsTriangleFill } from 'react-icons/bs';
-import logo from '../Images/Imdb-Logo.png';
+import logo from '../images/Imdb-Logo.png';
 
 function MovieHeader(props) {
   return (
