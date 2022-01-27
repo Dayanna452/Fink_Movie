@@ -36,7 +36,7 @@ function Navbar() {
   };
 
   return (
-    <nav className='h-14 my-6 ml-6 mr-4 lg:ml-20 xl:ml-40 xl:mr-24'>
+    <nav className='h-14 my-6 ml-6 mr-4 lg:ml-24 xl:mr-0 2xl:ml-40'>
       <ul className='flex items-center'>
         <div className='flex-1'>
           <Link to='/' className='flex text-justify items-center w-20'>
